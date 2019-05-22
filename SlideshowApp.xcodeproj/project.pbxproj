@@ -12,6 +12,10 @@
 		52B07382226C463300AA782C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B07380226C463300AA782C /* Main.storyboard */; };
 		52B07384226C463400AA782C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B07383226C463400AA782C /* Assets.xcassets */; };
 		52B07387226C463400AA782C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B07385226C463400AA782C /* LaunchScreen.storyboard */; };
+		52B07391226CBAFB00AA782C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B07390226CBAFB00AA782C /* ResultViewController.swift */; };
+		52B07393226DF1F900AA782C /* kadaiimage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B07392226DF1F900AA782C /* kadaiimage1.png */; };
+		52B07395226F5D5000AA782C /* kadaiimage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B07394226F5D5000AA782C /* kadaiimage2.png */; };
+		52B07397226F5D5A00AA782C /* kadaiimage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B07396226F5D5A00AA782C /* kadaiimage3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		52B07383226C463400AA782C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B07386226C463400AA782C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B07388226C463400AA782C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B07390226CBAFB00AA782C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		52B07392226DF1F900AA782C /* kadaiimage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kadaiimage1.png; sourceTree = "<group>"; };
+		52B07394226F5D5000AA782C /* kadaiimage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kadaiimage2.png; sourceTree = "<group>"; };
+		52B07396226F5D5A00AA782C /* kadaiimage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kadaiimage3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				52B0737C226C463300AA782C /* AppDelegate.swift */,
 				52B0737E226C463300AA782C /* ViewController.swift */,
+				52B07392226DF1F900AA782C /* kadaiimage1.png */,
+				52B07394226F5D5000AA782C /* kadaiimage2.png */,
+				52B07396226F5D5A00AA782C /* kadaiimage3.png */,
 				52B07380226C463300AA782C /* Main.storyboard */,
 				52B07383226C463400AA782C /* Assets.xcassets */,
 				52B07385226C463400AA782C /* LaunchScreen.storyboard */,
 				52B07388226C463400AA782C /* Info.plist */,
+				52B07390226CBAFB00AA782C /* ResultViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -122,8 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B07393226DF1F900AA782C /* kadaiimage1.png in Resources */,
 				52B07387226C463400AA782C /* LaunchScreen.storyboard in Resources */,
+				52B07395226F5D5000AA782C /* kadaiimage2.png in Resources */,
 				52B07384226C463400AA782C /* Assets.xcassets in Resources */,
+				52B07397226F5D5A00AA782C /* kadaiimage3.png in Resources */,
 				52B07382226C463300AA782C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +152,7 @@
 			files = (
 				52B0737F226C463300AA782C /* ViewController.swift in Sources */,
 				52B0737D226C463300AA782C /* AppDelegate.swift in Sources */,
+				52B07391226CBAFB00AA782C /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
